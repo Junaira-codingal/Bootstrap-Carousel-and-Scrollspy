@@ -1,0 +1,15 @@
+.carousel-caption:hover {
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: underline;
+  font-family: cursive;
+}
+#navbar a:hover {
+  color: white;
+  text-shadow: 0px 0px 14px rgb(255, 0, 102);
+  border-bottom: 2px solid rgb(0, 255, 255);
+  padding-bottom: 3px;
+}
+#navbar:hover {
+  background: linear-gradient(to top right, rgb(0, 255, 255), rgb(0, 0, 30));
+}

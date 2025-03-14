@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+      body {
+        background-image: url("https://png.pngtree.com/background/20230527/original/pngtree-hd-pink-neon-cubes-background-wallpaper-picture-image_2756843.jpg");
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .carousel-caption {
+        background: rgba(0, 0, 0, 0.6);
+        padding: 15px;
+        border-radius: 10px;
+        position: absolute;
+        bottom: 20px;
+        left: 5%;
+        text-align: left;
+        width: 40%;
+      }
+      .carousel-inner img {
+        width: 100%;
+        height: 500px;
+      }
+      .carousel {
+        box-shadow: 0px 4px 10px white;
+      }
+      #section1 {
+        padding-top: 50px;
+        height: 500px;
+        color: white;
+        background-color: rgb(0, 102, 255, 0.5);
+        font-size: 50px;
+        text-shadow: 10px 7px 10px black;
+        box-shadow: 0px 0px 14px white;
+      }
+
+      #section2 {
+        padding-top: 50px;
+        height: 500px;
+        color: white;
+        background-color: rgb(0, 102, 255, 0.5);
+        font-size: 50px;
+        text-shadow: 10px 7px 10px black;
+        box-shadow: 0px 0px 14px white;
+      }
+      #section3 {
+        padding-top: 50px;
+        height: 500px;
+        color: white;
+        background-color: rgb(0, 102, 255, 0.5);
+        font-size: 50px;
+        text-shadow: 10px 7px 10px black;
+        box-shadow: 0px 0px 14px white;
+      }
+      #section4 {
+        padding-top: 50px;
+        height: 500px;
+        color: white;
+        background-color: rgb(0, 102, 255, 0.5);
+        font-size: 50px;
+        text-shadow: 10px 7px 10px black;
+        box-shadow: 0px 0px 14px white;
+      }
+      #section5 {
+        padding-top: 50px;
+        height: 500px;
+        color: white;
+        background-color: rgb(0, 102, 255, 0.5);
+        font-size: 50px;
+        text-shadow: 10px 7px 10px black;
+        box-shadow: 0px 0px 14px white;
+      }
+      #section6 {
+        padding-top: 50px;
+        height: 500px;
+        color: white;
+        background-color: rgb(0, 102, 255, 0.5);
+        font-size: 50px;
+        text-shadow: 10px 7px 10px black;
+        box-shadow: 0px 0px 14px white;
+      }
+      #img-sec1 {
+        float: left;
+        margin-right: 20px;
+      }
+
+      #img-sec2 {
+        float: right;
+        margin-left: 20px;
+      }
+      #contact a {
+        color: white;
+        background: rgba(0, 0, 30, 0.7);
+        padding: 5px 10px;
+        border-radius: 5px;
+      }
+
+      h5 {
+        color: white;
+        font-size: 20px;
+        font-family: Arial;
+        font-style: italic;
+        font-weight: bold;
+      }
+      h1 {
+        text-align: center;
+        color: white;
+        font-family: cursive;
+        text-decoration: underline;
+        text-shadow: 7px 7px 14px black;
+      }
+      h4 {
+        color: black;
+      }
+      ul.a {
+        color: rgb(0, 0, 139);
+      }
+      #navbar {
+        background: linear-gradient(
+          to top right,
+          rgb(0, 0, 30),
+          rgb(0, 255, 255)
+        );
+        box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.5);
+        color: rgb(200, 255, 255);
+      }
+      #navbar a {
+        color: rgb(200, 255, 255);
+        text-shadow: 0px 0px 14px rgb(255, 0, 102);
+      }
+    </style>
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid" id="navbar">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a class="navbar-brand" href="#">Codingal</a>
+        </div>
+
+        <div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li><a href="#section1">Home</a></li>
+              <li><a href="#section2">Biography</a></li>
+              <li><a href="#section3">Tesla</a></li>
+              <li><a href="#section4">SpaceX</a></li>
+              <li><a href="#section5">Neuralink & AI</a></li>
+              <li><a href="#section6">Future Vision</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active">
+            <img
+              src="https://www.smartcompany.com.au/wp-content/uploads/sites/4/2017/02/Elon-Musk.png?fit=681%2C333"
+              alt="Image 1"
+            />
+            <div class="carousel-caption">
+              <h5>Elon Musk: Innovator of the Future</h5>
+              <p>The mind behind Tesla, SpaceX, and Neuralink</p>
+            </div>
+          </div>
+          <div class="item">
+            <img
+              src="https://spaceflightnow.com/wp-content/uploads/2015/06/ariane64.png"
+              alt="Image 2"
+            />
+            <div class="carousel-caption">
+              <h5>Revolutionizing Space Travel</h5>
+              <p>SpaceX is making space travel affordable and reusable.</p>
+            </div>
+          </div>
+          <div class="item">
+            <img
+              src="https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_default/v1/editorial/1.2019-Tesla-Model-S-pressimage-1001-565.jpg"
+              alt="Image 3"
+            />
+            <div class="carousel-caption">
+              <h5>Driving the Future with Tesla</h5>
+              <p>Accelerating the world towards sustainable energy.</p>
+            </div>
+          </div>
+          <div class="item">
+            <img
+              src="https://www.asiafinancial.com/wp-content/uploads/2024/04/chip-1-copy.jpg"
+              alt="Image 4"
+            />
+            <div class="carousel-caption">
+              <h5>Neuralink: The Future of AI & Humans</h5>
+              <p>Brain chips to connect humans with AI</p>
+            </div>
+          </div>
+          <div class="item">
+            <img
+              src="https://andrewggibson.com/wp-content/uploads/2023/12/DALL%C2%B7E-2023-12-13-19.34.12-A-futuristic-Mars-colony-with-domed-habitats-interconnected-tunnels-and-a-backdrop-of-the-Martian-landscape-showcasing-advanced-technology-and-a-hu-jpg.webp"
+              alt="Image 5"
+            />
+            <div class="carousel-caption">
+              <h5>Elon Musk’s Vision for Mars</h5>
+              <p>Building a self-sustaining colony on Mars.</p>
+            </div>
+          </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <h1>Home</h1>
+
+    <div id="section1" class="container-fluid">
+      <figure>
+        <img
+          src="https://i.pinimg.com/736x/0a/b9/f0/0ab9f098c60f185e70cc5ae36bc280fb.jpg"
+          alt="elon-musk"
+          height="350px"
+          width="300px"
+          id="img-sec1"
+        />
+        <figcaption class="text-center">Elon Musk</figcaption>
+      </figure>
+      <h5>
+        Elon Musk is a billionaire entrepreneur, engineer, and innovator known
+        for revolutionizing multiple industries. He is the CEO of Tesla, which
+        has transformed the electric vehicle market, and SpaceX, which is
+        pioneering space exploration. Born in South Africa in 1971, Musk moved
+        to the U.S. to pursue his dreams in technology and engineering. He
+        co-founded PayPal, making online transactions easier, before selling it
+        to focus on ambitious projects. With companies like Neuralink and The
+        Boring Company, he aims to advance brain-computer interfaces and
+        futuristic transportation. Musk's bold vision includes colonizing Mars
+        and making humanity a multi-planetary species.
+      </h5>
+    </div>
+    <h1>Biography</h1>
+    <div id="section2" class="container-fluid">
+      <figure>
+        <img
+          src="https://www.investopedia.com/thmb/sFi7zDFVLekmI6JiMcrLsNOyKAU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/how-elon-musk-became-elon-musk_final-43ef802cd2414d14a8bf3967f319ce18.png"
+          alt="elon-musk"
+          height="350px"
+          width="300px"
+          id="img-sec2"
+        />
+        <figcaption class="text-center">Biography</figcaption>
+      </figure>
+      <h5>
+        Elon Musk was born in Pretoria, South Africa, in 1971. From an early
+        age, he showed a strong interest in computers and entrepreneurship. At
+        just 12 years old, he created and sold a video game. He briefly attended
+        the University of Pretoria before moving to the U.S. to study at the
+        University of Pennsylvania, where he earned degrees in Physics and
+        Economics. Musk co-founded Zip2, a software company, which he later sold
+        for millions. He then helped create PayPal, revolutionizing online
+        payments. His ambitions grew with Tesla, SpaceX, and Neuralink, aiming
+        to transform transportation, space exploration, and technology.
+      </h5>
+    </div>
+    <h1>Tesla</h1>
+    <div id="section3" class="container-fluid">
+      <figure>
+        <img
+          src="https://i.guim.co.uk/img/media/fd844c04b9bbd2a2c11efb3fc4b7091dadc646b2/0_291_5471_3283/master/5471.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=6f593c81ef1354696bf97373b2cd506b"
+          alt="elon-musk"
+          height="350px"
+          width="300px"
+          id="img-sec1"
+        />
+        <figcaption class="text-center">Tesla</figcaption>
+      </figure>
+      <h5>
+        Elon Musk transformed Tesla from a struggling startup into the world’s
+        leading electric vehicle company. Under his leadership, Tesla
+        popularized electric cars, making them more efficient, stylish, and
+        accessible. The company’s impact on the automobile industry is huge,
+        pushing traditional car manufacturers toward sustainable energy
+        solutions. Tesla has released several groundbreaking models, including
+        the Model S, Model 3, Model X, and Model Y, known for their speed,
+        design, and self-driving capabilities. Tesla also leads in battery
+        technology and solar energy. Looking ahead, Musk envisions a future
+        where Tesla’s innovations drive the world toward fully autonomous and
+        sustainable transportation.
+      </h5>
+    </div>
+    <h1>SpaceX</h1>
+    <div id="section4" class="container-fluid">
+      <figure>
+        <img
+          src="https://imageio.forbes.com/specials-images/imageserve/6739055f69cdc188c8b66343/SpaceX-Starship-Launch/0x0.jpg?crop=2937,1652,x0,y150,safe&height=399&width=711&fit=bounds"
+          alt="elon-musk"
+          height="350px"
+          width="300px"
+          id="img-sec2"
+        />
+        <figcaption class="text-center">SpaceX</figcaption>
+      </figure>
+      <h5>
+        SpaceX, founded by Elon Musk in 2002, was created to reduce space
+        transportation costs and enable interplanetary travel. Despite multiple
+        early failures, SpaceX made history in 2008 when Falcon 1 became the
+        first privately developed liquid-fueled rocket to reach orbit. This
+        success led to the development of Falcon 9, a reusable rocket that
+        significantly reduced launch costs and revolutionized the space
+        industry. SpaceX is now focused on Starship, a fully reusable spacecraft
+        designed for Mars colonization, aligning with Musk’s vision of making
+        humans a multiplanetary species. A key breakthrough was the reusability
+        of rockets, allowing Falcon 9 boosters to land and be reused, making
+        space travel more sustainable. SpaceX has also played a crucial role in
+        NASA collaborations, with missions like Crew Dragon, which in 2020
+        became the first private spacecraft to transport astronauts to the
+        International Space Station (ISS). Looking ahead, SpaceX’s work with
+        NASA’s Artemis program is set to pave the way for Moon and Mars
+        exploration, bringing us closer to a new era of space travel. 🚀
+      </h5>
+    </div>
+    <h1>Neuralink</h1>
+    <div id="section5" class="container-fluid">
+      <figure>
+        <img
+          src="https://www.reuters.com/resizer/v2/HQO7U27NGZPSXAVOYC3CFFMH74.jpg?auth=0600748ce71ef93392b2d6a173409e63973ea608f824252fa86d09452f6e8111&width=4000&quality=80"
+          alt="elon-musk"
+          height="350px"
+          width="300px"
+          id="img-sec1"
+        />
+        <figcaption class="text-center">Neuralink</figcaption>
+      </figure>
+      <h5>
+        Neuralink, founded by Elon Musk, is pioneering brain-computer interface
+        research with the goal of creating a direct connection between the human
+        brain and computers. This technology has the potential to revolutionize
+        medicine, particularly in helping people with disabilities regain
+        mobility, communication, and sensory functions. By implanting tiny
+        electrodes in the brain, Neuralink aims to assist individuals with
+        paralysis in controlling devices with their thoughts, offering newfound
+        independence. However, the project also raises ethical concerns about AI
+        and future technology, as the integration of artificial intelligence
+        with the human brain could lead to privacy risks, potential misuse, and
+        debates about human augmentation. While Neuralink presents
+        groundbreaking possibilities, it also sparks discussions about the
+        responsible development of AI-driven neuroscience.
+      </h5>
+    </div>
+    <h1>Future Vision</h1>
+    <div id="section6" class="container-fluid">
+      <figure>
+        <img
+          src="https://images.yourstory.com/cs/2/e35953e0c10a11eeaef14be6ff40ae87/Image2w55-1726479987692.jpg?mode=crop&crop=faces&ar=2%3A1&format=auto&w=1920&q=75"
+          alt="elon-musk"
+          height="350px"
+          width="300px"
+          id="img-sec2"
+        />
+        <figcaption class="text-center">Future Vision</figcaption>
+      </figure>
+      <h5>
+        Elon Musk envisions a future where humanity becomes an interplanetary
+        species, ensuring our survival beyond Earth. His company, SpaceX, is
+        developing Starship, a fully reusable spacecraft designed for
+        long-distance space travel, with the ultimate goal of colonizing Mars.
+        Musk believes that establishing a self-sustaining city on Mars will
+        protect humanity from existential threats like climate change, natural
+        disasters, or potential technological risks. At the same time, he
+        emphasizes sustainability on Earth, promoting clean energy through
+        Tesla’s electric vehicles and solar technology. His vision is not just
+        about reaching Mars but also about ensuring a better and more
+        sustainable future for both planets, pushing the boundaries of
+        innovation for humanity’s survival and progress.
+      </h5>
+    </div>
+  </body>
+</html>
